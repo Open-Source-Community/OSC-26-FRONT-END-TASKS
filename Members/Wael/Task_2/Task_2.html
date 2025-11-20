@@ -96,6 +96,9 @@
     <div>
         <h3>Contanct Form and Data Collection</h3>
         <div>
+            <input type="hidden" value="v2" name="form_version"> 
+        </div>
+        <div>
             <label for="N">Name:</label>
             <input type="text" id="N" placeholder="Your Name">
         </div>
@@ -107,7 +110,7 @@
         <br>
         <div>
             <label for="P">Password:</label>
-            <input type="password" placeholder="Min 8 characters">
+            <input type="password" placeholder="Min 8 characters" required>
         </div>
     </div>
     <div>
@@ -152,6 +155,10 @@
             <input type="search" placeholder="e.g. chrome,Firefox ">
         </div>
         <div>
+            <label>satisfication</label>
+            <input type="range" min="0" max="100" step="50"> 
+        </div>
+        <div>
             <h4>Gender</h4>
             <div>
                 <input type="radio" name="gender" value="Male">
@@ -184,8 +191,7 @@
         </div>
         <hr>
         <footer>
-            <p>Built entirely with HTML5. &COPY; 2025</p>
+            <p>Built entirely with <code>HTML5</code>. &COPY; 2025</p>
         </footer>
 </body>
-
 </html>
