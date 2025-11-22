@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cv</title>
+    <meta name="description" content="using only HTML A Simple Interactive Personal Profile">
+</head>
+<body>
+    <header>
+        <h1>[Wael Ahmed Mohamed]</h1>
+    </header>
+    <div>
+        <p>Front-End Developer - Specialized in Clean and Semantic HTML.</p>
+    </div>
+    <hr>
+    <div>
+            <a href="#">Summary</a><span>|</span>
+            <a href="#">Skills</a><span>|conect Me:</span>
+            <a href="#">01122010637</a><span>| Email</span>
+            <a href="#">wael06960@gmail.com</a>
+    </div>
+    <hr>
+    <div>
+        <h3>Personal Summary</h3>
+        <p>
+            An enthusiastic web developer experienced in building foundational structures. I focus on Semantic Principles and ensuring Accessibility.
+            This page demonstrates the power of HTML in organizing content structure.
+            This is a short quote: <q>Structure before style</q>
+        </p>
+    </div>
+    <hr>
+    <div>
+        <h3>Core Skills</h3>
+        <div>
+            <table border="2">
+                    <caption >Skill Assessment Matrix</caption>
+                <thead>
+                    <tr>
+                        <th>Field</th>
+                        <th>Skill</th>
+                        <th>Rating</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2">Front-End</td>
+                        <td>HTML5</td>
+                        <td><mark>Excellent</mark></td>
+                    </tr>
+                    <tr>
+                        <td>Accessibility</td>
+                        <td>Good</td>
+                    </tr >
+                    <tr>
+                        <td colspan="2">Total Technical Skills</td>
+                        <td>Strong</td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3"><small>Last Skills Update November 2025</small></td>
+                        </tr>
+                    </tfoot>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h3>Media and Formating Exaples</h3>
+        <p>placeholder Image:</p>
+        <img src="placeholder-2-1.webp" alt="placeholder" width="200px">
+        <p>
+            Text Formatting Example:
+            This is important using &lt; strong &gt; and emphasized using &lt; em &gt;.
+            The price was<del>$100</del> $80 now.
+        </p>
+        <p>
+            Scientific Example: $H_2os is water (subscript: H<sub>2</sub>O),
+            and $2^3$ equals 8 (supscript: 2<sup>3</sup>)
+        </p>
+         <div>
+            <h3>Audio Sample:</h3>
+            <audio controls autoplay loop muted src="https://youtu.be/Wdro3gayqAI?si=0Mt_JCB2SoXPxzNsd"></audio>
+         </div>
+    </div>
+    <hr>
+    <div>
+        <h3>Quick Links</h3>
+         <ul>
+            <li><a href="https://www.linkedin.com/in/wael-ahmed-196500306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">linkedin profile</a></li>
+            <li><a href="#">GitHub Projects</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div>
+        <h3>Contanct Form and Data Collection</h3>
+        <div>
+            <input type="hidden" value="v2" name="form_version"> 
+        </div>
+        <div>
+            <label for="N">Name:</label>
+            <input type="text" id="N" placeholder="Your Name">
+        </div>
+        <br>
+        <div>
+            <label for="E">Email:</label>
+            <input type="email" id="E" placeholder="yours@Example.com">
+        </div>
+        <br>
+        <div>
+            <label for="P">Password:</label>
+            <input type="password" placeholder="Min 8 characters" required>
+        </div>
+    </div>
+    <div>
+        <h4>Scheduling</h4>
+        <div>
+            <label for="D">Appointment Date:</label>
+            <input type="date" id="D">
+        </div>
+        <br>
+        <div>
+            <label for="T">Preferred Time</label>
+            <input type="time" id="T">
+        </div>
+    </div>
+    <div>
+        <h4>File and Preferences</h4>
+        <div>
+            <label for="F">Upload CV:</label>
+            <input type="file" id="F">
+        </div>
+        <br>
+        <div>
+            <label for="C">Select Profile color</label>
+            <input type="color" id="C">
+        </div>
+    </div>
+    <br>
+    <div>
+            <h4>Dropdowns and Range</h4>
+        <div>
+        <select name="country">
+            <option>France</option>
+            <optgroup label="Asia">
+                    <option value="Japan">Japan</option>
+                    <option value="south korea">south korea</option>
+            </optgroup>
+        </select>
+        </div>
+        <br>
+        <div>
+            <label for="B">Search for Browser:</label>
+            <input type="search" placeholder="e.g. chrome,Firefox ">
+        </div>
+        <div>
+            <label>satisfication</label>
+            <input type="range" min="0" max="100" step="50"> 
+        </div>
+        <div>
+            <h4>Gender</h4>
+            <div>
+                <input type="radio" name="gender" value="Male">
+                <label>Male</label>
+            </div>
+            <div>
+                <input type="radio" name="gender" value="Female">
+                <label>Female</label>
+            </div>
+        </div>
+        <div>
+            <h4>Interests</h4>
+            <div>
+                <input type="checkbox" name="checkbox" value="Coding">
+                <label>Coding</label>
+            </div>
+            <div>
+                 <input type="checkbox" name="checkbox" value="Coding">
+                <label>Design</label>
+            </div>
+        </div>
+        <div>
+            <p>Your Message:</p>
+            <textarea cols="100px" rows="10px" placeholder="write your Message here..."></textarea>
+        </div>
+        <div>
+            <input type="reset" value="clear form">
+            <input type="button" value="Send Message">
+            <input type="button" value="Simple Button">
+        </div>
+        <hr>
+        <footer>
+            <p>Built entirely with <code>HTML5</code>. &COPY; 2025</p>
+        </footer>
+</body>
+</html>
