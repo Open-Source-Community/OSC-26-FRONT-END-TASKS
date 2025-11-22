@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    <h2>Esraa Samy </h2>
+    <p>Front end Devoloper- Specialized in clean and Semantic HTML</p>
+    <nav>
+        <p>
+            <a href="#summary"> Summary</a>|
+            <a href="#skills"> Skills</a>|
+            <a href="#contact"> Contact Me</a>|
+            Email: <a href="">Your email@example..com</a>
+        </p>
+    </nav>
+    <section>
+        <h2 id="Summary">Person Summary</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus totam nulla dolores quisquam suscipit
+            <br>
+            ipsa quam maxime excepturi numquam, nam pariatur sit eos modi. Fugiat earum laboriosam tenetur voluptates
+            velit!
+        </p>
+    </section>
+    <section >
+        <h2 id="skills">
+            Core Skills
+        </h2>
+        <table border="1" cellpadding="10">
+            <caption>Skills Assesment Matrix</caption>
+            <thead>
+                <tr>
+                    <th>
+                        Field
+                    </th>
+                    <th>
+                        Skills
+                    </th>
+                    <th>
+                        Rating
+                    </th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Front end</td>
+                    <td>HTML5</td>
+                    <td><mark>Excellent</mark></td>
+                </tr>
+                <tr>
+                    <td>Accessibilty</td>
+                    <td>Good</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Total Technical Skills</td>
+                    <td>Strong</td>
+                </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="3"> last skills update november 2025</td>
+                </tr>
+            </tfoot>
+            </thead>
+        </table>
+    </section>
+    <section>
+        <h2>Media and Formating Example</h2>
+        <p>Placeholder images: </p>
+        <img src="https://images.unsplash.com/photo-1710609942195-b9dab8f48fc6?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            width="200" height="150">
+        <p>Text Formatting Example: This is important using strong and emphasized using em. The price was $100 $80 now.
+            <br>
+            Scientific Example: H_{2}O is water (Subscript H_{2}O), and 2^{3} equals 8 (Superscript 2^{3}).
+        </p>
+    </section>
+    <section>
+        <h2>Audio Sample:</h2>
+        <audio controls autoplay muted loop src="Guillermo Guareschi - A Sweet Story (freetouse.com).mp3" type="audio/mpeg">
+            <source src="Guillermo Guareschi - A Sweet Story (freetouse.com).wav" type="audio/wav">
+            <source src="Guillermo Guareschi - A Sweet Story (freetouse.com).ogg " type="audio/ogg">
+
+        </audio>
+
+    </section>
+    <nav>
+        <h2> Quick Links </h2>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/YourUsername" target="_blank">LinkedIn Profile</a></li>
+            <li><a href="https://github.com/YourUsername?tab=repositories" target="_blank">GitHub Projects</a></li>></a></li>
+        </ul>
+    </nav>
+    <h2 id="contact">
+        Contact Form and data collection
+    </h2>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input id="name" type="text" placeholder="Your Name">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type="email" disabled value="fnk@ll;;l;'">
+        </div>
+        <br>
+        <div>
+            <label for="pass"> password:</label>
+            <input id="pass" type="password" placeholder="min 8 character" min="8" maxlength="20" required>
+        </div>
+        <br>
+        <h2>Scheduling</h2>
+        <div><label for="app">Appointment Date:</label>
+            <input id="app" type="date">
+        </div>
+        <br>
+        <div>
+            <label>Time</label>
+            <input type="time">
+        </div>
+        <br>
+        <h2>File and Prefernces</h2>
+        <div><label for="upload">Upload CV:</label>
+            <input id="upload" type="file">
+        </div>
+        <br>
+        <div><label for="ss">Select profile Color</label>
+            <input id="ss" type="color" value="#0056b3">
+        </div> <br>
+
+    </form>
+    <h2>Dropdowns and Range</h2>
+    <div>
+        <label for="country">Select Country</label>
+        <select name="country" id="country" size="4">
+            <optgroup label="Asia">         <option value="South Korea">south korea</option>
+            <option value="japin">japin</option>
+            <option value="France">France</option>
+            <option value="South Korea">south korea</option>
+            </optgroup>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="br">Seearch for browser:</label>
+        <input list="browser" id="br" placeholder="e.g.chrom,firefox">
+        <datalist id="browser"> <option value="Google Chrom">
+            <option value="Microsoft skills">
+        </datalist>
+    </div>
+    <div><label for="Satisfcation">Satisfcation level</label>
+        <input id="Satisfcation" type="Range" minlength="0" maxlength="100" value="50" ">
+    </div>
+    <form>
+        <h2>Gender</h2>
+        <input id="ll" type="radio" name="gender">
+        <label for="ll"> Male</label>
+        <br>
+        <input id="l" type="radio" name="gender" value="female">
+        <label for="l"> Female</label>
+        <br>
+    </form>
+    <form>
+        <h2>Intersts</h2>
+        <input type="checkbox">
+        <label for="">Coding</label>
+        <br>
+        <input type="checkbox">
+        <label for="">Design</label>
+        <br>
+        <div>
+            <label for="message">Your message</label><br>
+            <textarea name="message" id="message" rows="5" placeholder="Write yor message here"> </textarea>
+        </div>
+        <div>
+            <button type="reset">clear form</button>
+            <button > send message </button>
+<button type=" submit"> Simple button</button>
+        </div>
+    </form>
+</body>
+
+</html>
