@@ -1,0 +1,18 @@
+#div1{
+    background-color: rgba(62, 186, 210, 0.5);
+    padding: 25px;
+    margin: 20px;
+}
+#div2{
+    background-color: rgb(148 246 169);
+    padding: 25px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+}
+#div3{
+    color: rgba(255, 255, 255, 0.916);
+    background-image: url(https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png); 
+    background-size: 25% 100%;
+    padding: 25px;
+    margin-top: 40px;
+}
