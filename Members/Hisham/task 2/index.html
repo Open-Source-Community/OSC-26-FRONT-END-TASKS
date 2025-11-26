@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="using only HTML A simple interactive personal profile"
+    />
+    <title>My CV</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <h1>Hisham Mostafa Murad</h1>
+        <p>Frontend developer - specialized in clean code and semantic HTML</p>
+        <hr />
+      </div>
+      <div>
+        <a href="#summary">summary</a>
+        <span> | </span>
+        <a href="#skills">skills</a>
+        <span> | </span>
+        <a href="#contact">contact me</a>
+        <span> | </span>
+        <span>Email: </span>
+        <a href="mailto:hishammostafam@gmail.com">hishammostafam@gmail.com</a>
+        <hr />
+      </div>
+    </header>
+    <main>
+      <div id="summary">
+        <h2>personal summary</h2>
+        <p>
+          An enthusiastic web developer experienced in building foundational
+          structures. I focus on Semantic Principles and ensuring Accessibility.
+        </p>
+        <p>
+          This page demonstrates the power of HTML in organizing content
+          structure.
+        </p>
+        <p>This is a short quote: "Structure before style," while</p>
+        <hr />
+      </div>
+      <div id="skills">
+        <h2>core skills</h2>
+        <table border="2" cellpadding="10">
+          <caption>
+            Skill Assessment Matrix
+          </caption>
+          <thead>
+            <tr>
+              <th>Field</th>
+              <th>skill</th>
+              <th>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2">Frontend</td>
+              <td>HTML5</td>
+              <td><mark>excellent</mark></td>
+            </tr>
+            <tr>
+              <td>Accessibility</td>
+              <td>Good</td>
+            </tr>
+            <tr>
+              <td colspan="2">total technical skills</td>
+              <td>strong</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">Last Skills Update: November 2025</td>
+            </tr>
+          </tfoot>
+        </table>
+        <hr />
+      </div>
+      <div>
+        <h2>Media and Formatting Examples</h2>
+        <p>placeholder image:</p>
+        <br />
+        <img
+          src="portfolio 1.png"
+          alt="portfolio image"
+          width="200px"
+          height="150px"
+        /><br />
+        <p>
+          Text Formatting Example: This is important &lt;strong&gt; and
+          emphasized using &lt;em&gt;. The price was <del>$100</del>
+          <ins>$80</ins> now.
+        </p>
+        <p>
+          Scientific Example: $H_2​O$ is water (Subscript: H<sub>2</sub>O ), and
+          $2^3$ equals 8 (Superscript 2<sup>3</sup>).
+        </p>
+        <div>
+          <h3>Audio Sample:</h3>
+          <audio controls>
+            <source src="الباب الاول الدرس الخامس.mp3" />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <hr />
+      </div>
+    </main>
+    <aside>
+      <h2>Quick links</h2>
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/hisham-mostafa-murad/"
+            target="_blank"
+            >Linkedin Profile</a
+          >
+        </li>
+        <li>
+          <a href="https://github.com/hisham811" target="_blank"
+            >GitHub profile</a
+          >
+        </li>
+      </ul>
+      <hr />
+    </aside>
+    <div id="contact">
+      <form>
+        <h2>contact form and data collection</h2>
+        <div>
+          <input type="text" value="v2" name="form-version" hidden />
+        </div>
+        <div>
+          <label for="name">Name: </label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Your Name"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="email">Email: </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            value="yours@example.com"
+            disabled
+          />
+        </div>
+        <br />
+        <div>
+          <label for="password">password: </label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="min 8 characters"
+            minlength="8"
+            maxlength="20"
+            required
+          />
+        </div>
+        <div>
+          <h3>Schedulling</h3>
+          <div>
+            <label for="date">Appointment Date: </label>
+            <input type="date" name="date" id="date" />
+          </div>
+          <br />
+          <div>
+            <label for="time">Prefered time: </label>
+            <input type="time" name="time" id="time" />
+          </div>
+        </div>
+        <div>
+          <h3>file and preferences</h3>
+          <div>
+            <label for="CV">Uplode CV: </label>
+            <input type="file" name="CV" id="CV" required />
+          </div>
+          <br />
+          <div>
+            <label for="color">Select Profile color</label>
+            <input type="color" name="color" id="color" value="#0000ff" />
+          </div>
+        </div>
+        <div>
+          <h3>Dropdowns and Range</h3>
+          <div>
+            <label for="countries"></label>
+            <select name="country" id="countries">
+              <optgroup label="Asia">
+                <option value="north-korea">North korea</option>
+                <option value="south-korea">South korea</option>
+                <option value="china">china</option>
+              </optgroup>
+              <optgroup label="Europe">
+                <option value="France">France</option>
+                <option value="England">England</option>
+                <option value="Portogal">Portogal</option>
+              </optgroup>
+              <optgroup label="Africa">
+                <option value="Egypt" selected>Egypt</option>
+                <option value="Mali">Mali</option>
+                <option value="Morocco">Morocco</option>
+              </optgroup>
+            </select>
+          </div>
+          <br />
+          <div>
+            <label for="browsers">Search for browser: </label>
+            <input
+              type="search"
+              name="browser"
+              id="browsers"
+              placeholder="e.g: chrome, firefox"
+            />
+          </div>
+          <br />
+          <div>
+            <label for="range">Satisfaction level</label>
+            <input
+              type="range"
+              name="level"
+              id="range"
+              step="1"
+              min="0"
+              max="100"
+              value="50"
+            />
+          </div>
+        </div>
+        <div>
+          <h3>gender</h3>
+          <div>
+            <input type="radio" name="gender" value="male" id="male" />
+            <label for="male">male</label>
+          </div>
+          <div>
+            <input type="radio" name="gender" value="female" id="female" />
+            <label for="female">female</label>
+          </div>
+        </div>
+        <div>
+          <h3>interests</h3>
+          <div>
+            <input
+              type="checkbox"
+              name="interests"
+              value="coding"
+              id="coding"
+            />
+            <label for="male">coding</label>
+          </div>
+          <div>
+            <input
+              type="checkbox"
+              name="interests"
+              value="design"
+              id="design"
+            />
+            <label for="female">design</label>
+          </div>
+          <br />
+          <div>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Write Your message..."
+              rows="20"
+              cols="50"
+            ></textarea>
+          </div>
+        </div>
+        <br />
+        <div>
+          <input type="reset" value="Clear Form" />
+          <input type="submit" value="Send Message" />
+          <button type="button">Simple button</button>
+        </div>
+      </form>
+      <hr />
+    </div>
+    <footer>
+      <p>Built entirely with <code>HTML5</code> &copy; 2025</p>
+    </footer>
+  </body>
+</html>
