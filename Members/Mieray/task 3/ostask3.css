@@ -1,0 +1,23 @@
+.one{
+    background-color: aqua;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.two{
+    background-color: chartreuse;
+    margin-top: 0%;
+    padding: 30px;
+}
+.three{
+    background-image: url(https://www.publicdomainpictures.net/pictures/320000/velka/background-image.png);
+    background-repeat: repeat-x;
+    width: 1500px; 
+    height: 200px;
+    background-size: contain;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}
