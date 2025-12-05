@@ -1,0 +1,78 @@
+body {
+    background-color: black;
+    font-family: cursive;
+    color: greenyellow;
+}
+
+.Main {
+    margin: 40px 185px 0px 185px;
+    padding: 40px;
+    border: 1px solid greenyellow;
+    box-shadow: 0px 1px 7px 1px greenyellow;
+    word-spacing: 7px;
+}
+
+.CO-1 ,
+.CO-2 , 
+.CO-3 ,
+.CO-4 {
+    margin: 30px 0px 20px 0px ;
+    width: 22.5%;
+    padding-right: 8px;
+    height: 270px;
+    display: inline-block;
+}
+
+.CO-1 {
+    border-right: 2px dashed greenyellow;
+    line-height: 2.1;
+}
+
+.CO-2 {
+    border-right: 2px dashed greenyellow;
+    line-height: 2;
+    padding-left: 5px;
+}
+
+.CO-3 {
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.Visitor {
+    color: blueviolet;
+    line-height: 2;
+}
+
+.Photo {
+    border: 2px solid blueviolet;
+    width: 200px;
+    height: 270px;
+    rotate: 8deg;
+    transition: transform 0.8s ;
+}
+.Photo:hover {
+    transform:  scale(1.2) rotate(-8deg)  ;
+    box-shadow: 0px 0px 20px 1px blueviolet;
+}
+
+ul {
+    margin-left: -20px;
+    list-style-type: square;
+}
+
+li:hover {
+    color: blueviolet;
+}
+
+li:hover a {
+    color: blueviolet;
+}
