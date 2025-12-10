@@ -1,0 +1,16 @@
+div {
+  padding: 30px;
+}
+.box-one {
+  margin: 20px;
+  background-color: lightblue;
+}
+.box-two {
+  margin: -50px 0 100px;
+  background-color: lightgreen;
+}
+.box-three {
+  color: white;
+  background-size: 25% 100%;
+  background-image: url(gradient-blue-background_23-2149354574.avif);
+}
