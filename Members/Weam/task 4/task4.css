@@ -57,6 +57,7 @@ img{
 }
 li:hover{
     color: blueviolet;
+    cursor: pointer;
 
 }
 img:hover{
