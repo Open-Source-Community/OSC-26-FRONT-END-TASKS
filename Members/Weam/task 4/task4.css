@@ -1,0 +1,67 @@
+
+body{
+    background-color: black;
+    font-family:'Creepster', cursive;
+}
+h1{
+    color: chartreuse;
+    text-align: center;
+}
+#parent{
+    border: 2px solid chartreuse;
+    box-shadow: 0 0 20px 5px rgb(90, 110, 70);
+    margin: 100px 150px;
+    height: 420px;
+    width: 900px;
+}
+.child{
+    width:170px;
+    height: 250px;
+    color: chartreuse;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+#div1{
+    padding: 30px;
+}
+#div2{
+    border-width:0px 2px ;
+    border-style: dashed;
+    border-color: chartreuse;
+    line-height: 30px;
+    padding: 10px 20px;
+}
+#div3{
+    padding: 10px ;
+    margin-right: -20px;
+}
+#ul1{
+    padding-left: 10px;
+}
+#ul2{
+    padding-left: 20px;
+}
+
+#end{
+    color: blueviolet;
+}
+img{
+    width: 250px;
+    height: 300px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blueviolet;
+    transform: rotate(5deg);
+   
+}
+li:hover{
+    color: blueviolet;
+    cursor: pointer;
+
+}
+img:hover{
+    transform: scale(1.1) rotate(0deg);
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 25px 2px blueviolet;
+}
