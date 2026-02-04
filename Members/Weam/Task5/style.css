@@ -1,0 +1,48 @@
+
+body{
+    padding:50px;
+}
+#parent{
+    display: flex;
+    gap: 20px;
+}
+.child{
+    width: 250px;
+    padding: 12px;
+    background-color:rgba(239, 244, 244, 0.762);
+    border-radius: 15px;
+    
+}
+.image{
+    margin-bottom:30px ;
+    height: 250px;
+    background-color:rgba(238, 204, 165, 0.27);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 2s ease;
+}
+.image:hover img{
+
+    transform: translateY(-6px) translateX(-6px);
+}
+.bottom{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+#plus{
+    width: 30px;
+    height: 30px;
+    background-color:rgb(193, 5, 121); 
+    color: white;
+    font-weight: bold;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+   
+
+
+
+
