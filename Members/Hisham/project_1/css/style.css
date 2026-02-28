@@ -6,6 +6,9 @@
   font-family: "Montserrat", sans-serif;
   color: var(--main-color);
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   min-height: 100vh;
 }
@@ -148,6 +151,17 @@ nav .icons {
 }
 .hero-content .image img {
   width: 100%;
+  animation: onload 3s ease;
+}
+@keyframes onload {
+  from {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
 }
 @media screen and (max-width: 900px) {
   .hero-content .text h2 {
@@ -615,6 +629,17 @@ form .inner {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  animation: onload-form 1s ease; 
+}
+@keyframes onload-form {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 form .inner input {
   padding: 10px 5px;
