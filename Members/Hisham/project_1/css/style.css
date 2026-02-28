@@ -563,6 +563,7 @@ footer .right li {
   font-weight: 600;
   position: relative;
   cursor: pointer;
+  width: fit-content;
   i {
     margin-right: 10px;
   }
@@ -588,9 +589,6 @@ footer .right li:hover::after {
 @media screen and (max-width: 500px) {
   footer .inner .right {
     flex-direction: column;
-  }
-  footer .right li::after {
-    width: 30%;
   }
 }
 
