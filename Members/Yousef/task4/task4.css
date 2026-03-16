@@ -1,0 +1,32 @@
+.task-card{
+    border:1px solid #ddd;
+    padding:20px;
+    margin:15px;
+    border-radius:8px;
+}
+
+.completed{
+    background:#d4edda;
+}
+.toggle{
+    background:#007bff;
+    color:#fff;
+    border:none;
+    padding:10px 15px;
+    cursor:pointer;
+    border-radius:5px;
+}
+.toggle:hover{
+    background:#0056b3;
+}
+.remove{
+    background:#dc3545;
+    color:#fff;
+    border:none;
+    padding:10px 15px;
+    cursor:pointer;
+    border-radius:5px;
+}
+.remove:hover{
+    background:#c82333;
+}
