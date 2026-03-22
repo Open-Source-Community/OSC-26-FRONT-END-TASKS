@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 50px;
+}
+.task{
+  border-radius: 10px;
+  border: 1px solid rgb(183, 181, 181);
+  margin: 10px 0;
+  padding: 15px;
+}
+.pending {
+  background-color: #f8f9fa;
+}.completed {
+  background-color: #dffaee;
+}
+button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.toggle-btn{
+  background-color: rgb(78, 148, 253);
+  border-radius: 5px;
+  color: white;
+}
+.toggle-btn:hover {
+  background-color: #0056b3; /* أزرق أغمق */
+}
+.remove-btn{
+  background-color: rgb(175, 42, 42);
+  border-radius: 5px;
+  color: white;
+}
+
