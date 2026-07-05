@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>My Tasks</title>
+    <style>
+        .task {
+            border: 1px solid ;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        .toggle-btn {
+            background-color: blue;
+            color: white;
+        }
+        .remove-btn {
+            background-color: red;
+            color: white;
+        }
+        .task.completed {
+            background-color: lightgreen;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Tasks</h1>
+    <div id="taskList"></div>
+    <script>
+        let tasks = [
+        {
+        id: 1,
+        title: "Learn JavaScript Basics",
+        desc: "Complete variables and function experiences",
+        completed: false
+        },
+        {
+        id: 2,
+        title: "Create HTML Project",
+        desc: "Build simple DOM manipulation example",
+        completed: false
+        }
+        ];
+
+        function showMyTasks() {
+        const list = document.getElementById("taskList");
+        list.innerHTML = "";
+
+        let i = 0;
+        while (i < tasks.length) {
+        const task = tasks[i];
+
+        const div = document.createElement("div");
+        div.className = "task " + (task.completed ? "completed" : "");
+
+        div.innerHTML = `
+        <h3>${task.title}</h3>
+        <p>${task.desc}</p>
+        <div class="status">Status: ${task.completed ? "Completed" : "Pending"}</div>
+        <button class="toggle-btn" onclick="editStatus(${task.id})">Toggle Status</button>
+        <button class="remove-btn" onclick="removeTask(${task.id})">Remove</button>
+        `;
+        list.appendChild(div);
+        i++;
+        }
+        }
+
+        function editStatus(id) {
+        let i = 0;
+        while (i < tasks.length) {
+        if (tasks[i].id === id) {
+        tasks[i].completed = !tasks[i].completed;
+        }
+        i++;
+        }
+        showMyTasks();
+        }
+
+        function removeTask(id) {
+        let newTasks = [];
+        let i = 0;
+        while (i < tasks.length) {
+        if (tasks[i].id !== id) {
+        newTasks.push(tasks[i]);
+        }
+        i++;
+        }
+        tasks = newTasks;
+        showMyTasks();
+        }
+        showMyTasks();
+    </script>
+
+</body>
+</html>
