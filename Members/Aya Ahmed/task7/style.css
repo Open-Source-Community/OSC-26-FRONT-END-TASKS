@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+.container{
+    width:80%;
+    margin:40px auto;
+}
+
+h1{
+    margin-bottom:25px;
+}
+
+.task{
+    background:white;
+    border:1px solid #ddd;
+    border-radius:8px;
+    padding:20px;
+    margin-bottom:20px;
+    transition:.3s;
+}
+
+.task.completed{
+    background:#dff8df;
+    border:1px solid #a8e6a8;
+}
+
+.task h2{
+    margin-bottom:15px;
+}
+
+.task p{
+    margin:12px 0;
+    font-size:18px;
+}
+
+.buttons{
+    margin-top:20px;
+}
+
+button{
+    border:none;
+    padding:10px 18px;
+    color:white;
+    cursor:pointer;
+    border-radius:5px;
+    margin-right:10px;
+    font-size:16px;
+}
+
+.toggle{
+    background:#1e88e5;
+}
+
+.remove{
+    background:#e53935;
+}
