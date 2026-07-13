@@ -1,0 +1,49 @@
+   <!DOCTYPE html>
+   <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js task_2.css">
+   </head>
+   <body>
+    
+   <div class="task-card" id="task1">
+    <h3>Learn JavaScript Basics</h3>
+    <p>Complete variables and functions exercises</p>
+
+    <p class="status">
+        Status: <span id="statusText">⏳ Pending</span>
+    </p>
+
+    <button class="toggle" onclick="toggleStatus('task1','statusText')">
+        Toggle Status
+    </button>
+
+    <button class="remove" onclick="deleteTask('task1')">
+        Remove
+    </button>
+</div>
+
+
+   <div class="task-card" id="task2">
+    <h3>create html project</h3>
+    <p>Complete variables and functions exercises</p>
+
+    <p class="status">
+        Status: <span id="statusText2">⏳ Pending</span>
+    </p>
+
+    <button class="toggle" onclick="toggleStatus('task2','statusText2')">
+        Toggle Status
+    </button>
+
+    <button class="remove" onclick="deleteTask('task2')">
+        Remove
+    </button>
+</div>
+
+
+<script src="js task_2.js"></script>
+   </body>
+   </html>
