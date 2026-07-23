@@ -1,0 +1,52 @@
+body {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.Cont {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.box_1 ,.box_2 {
+    background-color: lightgreen;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px black solid;
+}
+
+.b_1 {
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.8s ;
+}
+
+.b_1:hover {
+    background-color: hsl(210, 100%, 40%);
+}
+
+.b_2 {
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.8s ;
+}
+.b_2:hover {
+    background-color: hsl(0, 100%, 42%);
+}
+
+p , .stat {
+    font-size: 18px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 28px;
+}
