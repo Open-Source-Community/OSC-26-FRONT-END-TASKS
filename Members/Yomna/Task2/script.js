@@ -26,23 +26,25 @@ new_item.innerHTML=`
     }
      
 )
-document.addEventListener("click",(e)=>{
-    if(e.target.classList.contains("remove"))
-        e.target.parentElement.remove()
+// document.addEventListener("click",(e)=>{
+//     if(e.target.classList.contains("remove"))
+//         e.target.parentElement.remove()
 
-    if(e.target.classList.contains("toggle"))
-    {
-        const item=e.target.parentElement
-        const status=item.querySelector("p")
-        if(status.textContent==="status: Not Complete")
-        {
-            status.textContent="status:Complete"
-            item.classList.add("done")
-        }
-        else{
-            status.textContent="status: Not Complete"
-            item.classList.remove("done")
-           } 
+//     if(e.target.classList.contains("toggle"))
+//     {
+//         const item=e.target.parentElement
+//         const status=item.querySelector("status")
+//         if(status.textContent==="status: Not Complete")
+//         {
+//             status.textContent="status:Complete"
+//             item.classList.add("done")
+//         }
+//         else{
+//             status.textContent="status: Not Complete"
+//             item.classList.remove("done")
+//            } 
         
-    }
-})
+//     }
+// })
+
+
