@@ -1,7 +1,7 @@
 # Bonus
 
 ## What is WordPress?
-**WordPress** is a Content Management System (CMS), powering over 40% of all websites on the internet. It allows users to build, design, and manage websites without writing code from scratch. it contains customizable templates to be edited by the user. 
+WordPress is a Content Management System (CMS), powering over 40% of all websites on the internet. It allows users to build, design, and manage websites without writing code from scratch. it contains customizable templates to be edited by the user. 
 ---
 
 ## Key Features
