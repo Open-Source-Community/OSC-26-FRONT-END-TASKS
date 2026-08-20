@@ -1,0 +1,17 @@
+
+
+.passed{
+  background-color: green;
+  color:white;
+  padding: 20px;
+  border-radius: 20px;
+  
+
+}
+.failed{
+    background-color: rgb(188, 71, 71);
+      color:white;
+      padding: 20px;
+      border-radius: 20px;
+
+}
