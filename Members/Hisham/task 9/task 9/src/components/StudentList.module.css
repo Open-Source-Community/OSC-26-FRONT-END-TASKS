@@ -1,0 +1,16 @@
+.subHeader {
+  padding: 15px;
+  margin: 25px;
+  background-color: white;
+  width: fit-content;
+  border-radius: 10px;
+  color: red;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}

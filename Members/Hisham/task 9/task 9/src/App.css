@@ -1,0 +1,13 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-image: linear-gradient(to top right, red, orange);
+  min-height: 100vh;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: 900;
+}
