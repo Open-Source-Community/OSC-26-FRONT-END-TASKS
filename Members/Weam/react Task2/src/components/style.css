@@ -1,0 +1,26 @@
+.home{
+  padding: 20px 40px;
+  font-family: sans-serif;
+  background-image: linear-gradient(to right ,rgb(251, 216, 216),rgb(229, 250, 231));
+}
+.title{
+  text-align:center;
+  font-size:50px;
+}
+.card{
+    border: 5px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px 0;
+    width: 300px;
+}
+.passed {
+  background-color: #06c031;
+  border-color: #b1f3c7;
+  color: White;
+}
+.failed {
+  background-color: #cd0617;
+  border-color: #f8a3ab;
+  color: white;
+}
